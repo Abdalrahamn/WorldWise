@@ -1,0 +1,29 @@
+.eyeicon {
+    position: absolute;
+    right: 15px;
+    top: 33px;
+    cursor: pointer;
+    color: #000 !important;
+    font-size:20px;
+}
+
+.form-container {
+    max-height: 70vh ; /* Set the maximum height to the viewport height */
+    overflow-y: auto !important; /* Enable vertical scrollbar when content overflows */
+    padding: 20px !important; /* Add padding for spacing */
+}
+  
+/* For WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Set the background color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #b6b6b6; /* Set the color of the thumb */
+  }
+  
+

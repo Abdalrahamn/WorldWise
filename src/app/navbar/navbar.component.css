@@ -1,0 +1,15 @@
+.nav-item:hover .nav-link {
+    color: #176ac4 !important; /* Change the link color on hover */
+  }
+
+.nav-item{
+    font-weight: bold;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.nav-item:hover .nav-link a i{
+    color: #17559c; /* Change the icon color on hover */
+  }
